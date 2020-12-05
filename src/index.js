@@ -1,17 +1,39 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
-const GameList = () => {
+function GameList() {
   return (
-    <section>
+    <section className="gamelist">
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
+      <Game />
       <Game />
     </section>
   );
-};
+}
 
 const Game = () => {
   return (
-    <article>
+    <article className="game">
       <Image />
       <Title />
     </article>
@@ -21,7 +43,7 @@ const Game = () => {
 const Image = () => {
   return (
     <img
-      src="https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg"
+      src="https://m.media-amazon.com/images/I/61DAQGX2QML._AC_UY218_.jpg"
       alt=""
     />
   );
