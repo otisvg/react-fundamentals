@@ -1,11 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//stateless functional component
-//need to always return some jsx
+const GameList = () => {
+  return (
+    <section>
+      <Game />
+    </section>
+  );
+};
 
-function Greeting() {
-  return <h1>Hey, I'm Otis :)</h1>;
-}
+const Game = () => {
+  return (
+    <article>
+      <Image />
+      <Title />
+    </article>
+  );
+};
 
-ReactDOM.render(<Greeting />, document.getElementById("root"));
+const Image = () => {
+  return (
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg"
+      alt=""
+    />
+  );
+};
+
+const Title = () => {
+  return <p>Harvest Moon: Friends of Mineral Town</p>;
+};
+
+ReactDOM.render(<GameList />, document.getElementById("root"));
