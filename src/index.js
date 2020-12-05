@@ -19,24 +19,27 @@ const secondGame = {
 function GameList() {
   return (
     <section className="gamelist">
-      <Game img={firstGame.img} title={firstGame.title} date={firstGame.date} />
+      <Game
+        img={firstGame.img}
+        title={firstGame.title}
+        date={firstGame.date}
+      ></Game>
       <Game
         img={secondGame.img}
         title={secondGame.title}
         date={secondGame.date}
-      />
+      ></Game>
     </section>
   );
 }
 
-const Game = (props) => {
-  console.log(props);
+const Game = ({ img, title, date, owner }) => {
   return (
     <article className="game">
-      <img src={props.img} alt="" />
-      <h4>{props.title}</h4>
-      <h6>Release date: {props.date}</h6>
-      <p>{props.owner}</p>
+      <img src={img} alt="" />
+      <h4>{title}</h4>
+      <h6>Release date: {date}</h6>
+      <p>{owner}</p>
     </article>
   );
 };
