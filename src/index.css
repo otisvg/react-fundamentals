@@ -30,3 +30,7 @@ body {
   border-radius: 1rem;
   padding: 1rem 2rem;
 }
+
+img {
+  max-width: 200px;
+}
