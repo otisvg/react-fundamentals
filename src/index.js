@@ -40,13 +40,22 @@ const games = [
     date: "1997",
   },
   {
-    img:
-      "https://images-na.ssl-images-amazon.com/images/I/51YSBXMJ6AL._AC_SX466_.jpg",
-    title: "Spyro: Year of the Dragon",
+    img: "https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg",
+    title: "Spyro The Dragon",
     date: "2001",
   },
+  {
+    img:
+      "https://vignette.wikia.nocookie.net/spaceinvaders/images/d/dd/5806-space-invaders-playstation-front-cover.png/revision/latest?cb=20180313171056",
+    title: "Space Invaders",
+    date: "1999",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/51GMKNSJ9GL._AC_SX466_.jpg",
+    title: "Pokemon Blue",
+    date: "1996",
+  },
 ];
-
 function GameList() {
   return (
     <section className="gamelist">

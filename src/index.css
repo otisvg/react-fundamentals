@@ -27,7 +27,7 @@ body {
 
 .game {
   background: purple;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 1rem 2rem;
 }
 
