@@ -55,6 +55,11 @@ const games = [
     title: "Pokemon Blue",
     date: "1996",
   },
+    {
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Modern_Warfare_2_cover.PNG/220px-Modern_Warfare_2_cover.PNG",
+    title: "Call of Duty: Modern Warfare 2",
+    date: "2011"
+    }
 ];
 function GameList() {
   return (
